@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383cf6">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="183dp"
+        android:layout_x="36dp"
+        android:layout_y="35dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="57dp"
+        android:layout_x="32dp"
+        android:layout_y="247dp"
+        android:hint="User"
+        android:inputType="text"
+        android:textColorHint="@color/md_white_1000"
+
+        android:textColorLink="@android:color/white" />
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="57dp"
+        android:layout_x="36dp"
+        android:layout_y="318dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/md_white_1000"
+        android:textColorLink="@color/md_white_1000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="386dp"
+        android:gravity="center"
+        android:text="Login in"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="452dp"
+        android:text="Sign up"
+        android:textSize="30sp" />
+
+</AbsoluteLayout>

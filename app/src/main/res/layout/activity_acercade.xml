@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acercade"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="166dp"
+        android:width="100sp"
+        android:background="@color/md_deep_orange_400"
+        android:gravity="end"
+        android:text="Aceca de "
+        android:textColor="@color/md_cyan_300"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="252dp"
+        android:gravity="center"
+        android:text="Calculadora "
+        android:textAlignment="gravity"
+        />
+
+
+
+</AbsoluteLayout>
