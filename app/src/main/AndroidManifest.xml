@@ -8,7 +8,7 @@
         android:label="Login"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Acercade"></activity>
-        <activity android:name=".infoClase"></activity>
+        <activity android:name=".Acercade" />
+        <activity android:name=".infoClase" />
+        <activity android:name=".calculadora"></activity>
     </application>
 
 </manifest>
