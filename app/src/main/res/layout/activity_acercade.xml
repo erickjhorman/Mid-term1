@@ -8,6 +8,7 @@
     android:background="@color/colorPrimary">
 
     <Button
+        android:id="@+id/btnAcercade"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
         android:layout_x="59dp"
@@ -18,16 +19,20 @@
         android:text="Aceca de "
         android:textColor="@color/md_cyan_300"
         android:textSize="23sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        android:onClick="acercaActivity"/>
 
     <Button
+        android:id="@+id/btnCalculadora"
         android:layout_width="216dp"
         android:layout_height="wrap_content"
         android:layout_x="56dp"
         android:layout_y="272dp"
         android:gravity="center"
         android:text="Calculadora "
-        android:textAlignment="gravity" />
+        android:textAlignment="gravity"
+        android:onClick="calculadoraActivity"
+        />
 
 
 
