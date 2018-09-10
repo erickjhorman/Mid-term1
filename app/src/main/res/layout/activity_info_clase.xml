@@ -17,9 +17,20 @@
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="76dp" />
 
-        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="256dp"
+        android:gravity="bottom"
+        android:text="
+        Materia : Programacion en android
+        Parcial 1
+        Estudiante: Erick jhorman Romero jojoa"
+        android:textColor="@color/md_blue_A200"
+        android:textStyle="bold" />
 
-    >
+
 
 
 
