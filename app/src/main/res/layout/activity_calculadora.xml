@@ -11,8 +11,8 @@
         android:id="@+id/btnBackAcercade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="28dp"
-        android:layout_y="480dp"
+        android:layout_x="11dp"
+        android:layout_y="585dp"
         android:gravity="center"
         android:onClick="backAcercade"
         android:text="Back"
@@ -23,36 +23,38 @@
         android:id="@+id/tvCasio"
         android:layout_width="147dp"
         android:layout_height="40dp"
-        android:layout_x="101dp"
-        android:layout_y="38dp"
+        android:layout_x="106dp"
+        android:layout_y="14dp"
         android:text="CASIO"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="64dp"
-        android:textStyle="bold"
-        android:textSize="23sp"
         android:textAlignment="center"
-        />
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <TextView
         android:id="@+id/tvDisplay"
-        android:layout_width="320dp"
+        android:layout_width="344dp"
         android:layout_height="60dp"
-        android:layout_x="23dp"
-        android:layout_y="94dp"
+        android:layout_x="16dp"
+        android:layout_y="73dp"
         android:background="@color/md_yellow_A100"
         android:textSize="65dp" />
 
     <TableLayout
         android:layout_width="368dp"
-        android:layout_height="310dp"
+        android:layout_height="350dp"
         android:layout_x="7dp"
-        android:layout_y="162dp"
+        android:layout_y="175dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="162dp">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_width="335dp"
+            android:layout_height="500dp">
 
             <Button
                 android:id="@+id/btnSiete"
@@ -94,7 +96,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnCuatro"
@@ -135,7 +137,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnUno"
@@ -176,7 +178,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnCero"
@@ -218,7 +220,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnRandomico"
@@ -260,7 +262,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnSeno"
@@ -302,7 +304,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnRaiz"
