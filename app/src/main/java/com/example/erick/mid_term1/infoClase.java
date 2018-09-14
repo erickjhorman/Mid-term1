@@ -17,7 +17,9 @@ public class infoClase extends AppCompatActivity {
         setContentView(R.layout.activity_info_clase);
 
         Mitext = (TextView) findViewById(R.id.txtMyinformation);
-
+        Mitext.setText(" Materia :Programacion en android\n" +
+                "        Parcial 1\n" +
+                "        Estudiante: Erick jhorman Romero jojoa\" ");
     }
 
         public void backAcercade(View view){
